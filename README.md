@@ -1,8 +1,51 @@
-# React + Vite
+# React Login Form
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  <img src="https://i.ibb.co/R7G0MKn/Screenshot-5.png)" alt="Descrição da imagem">
+</p>
 
-Currently, two official plugins are available:
+Este é um projeto simples de formulário de login criado com React. Ele apresenta um design básico usando estilos CSS Modules e componentes React.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Pré-requisitos
+Antes de começar, certifique-se de ter o Node.js instalado em sua máquina.
+
+Node.js: https://nodejs.org/
+
+# Instalação
+Clone este repositório para o seu ambiente local:
+
+git clone https://github.com/seu-username/react-login-form.git
+
+# Navegue até o diretório do projeto:
+
+cd react-login-form
+
+# Instale as dependências:
+
+npm install
+
+# Executando o Projeto
+Após a instalação das dependências, você pode iniciar o projeto com o seguinte comando:
+
+npm start
+
+isso iniciará o aplicativo em modo de desenvolvimento. Abra http://localhost:3000 para visualizá-lo no seu navegador.
+
+# Estrutura do Projeto
+
+- src/App.js: Arquivo principal contendo a estrutura do formulário de login.
+
+- src/components/Inputs.js: Componente de entrada reutilizável para campos de email e senha.
+
+- src/App.module.css: Arquivo de estilos CSS Modules para o componente principal.
+
+- public/index.html: Arquivo HTML principal.
+
+# Personalização
+Você pode personalizar este projeto conforme necessário para atender às suas necessidades. Experimente adicionar mais campos ao formulário, implementar validações ou adicionar funcionalidades de envio.
+
+# Contribuindo
+Se deseja contribuir, sinta-se à vontade para abrir uma issue ou enviar uma solicitação de pull.
+
+# Licença
+Este projeto é licenciado sob a licença MIT.
